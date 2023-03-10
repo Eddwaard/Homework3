@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Задача 2");
         double a = 27.12;
         System.out.println(a);
-        double b = 0.987678965549;
+        long b = 987678965549L;
         System.out.println(b);
         float c = 2.768F;
         System.out.println(c);
@@ -72,7 +72,7 @@ public class Main {
         byte allClasses = (byte) (allCansOfPaint/allCansForOneClasses);
         byte allCansOfWhitePaint = (byte) (allClasses*cansOfWhitePaint);
         byte allCansOfBrownPaint = (byte) (allClasses*cansOfBrownPaint);
-        System.out.println("В школе, где " + allClasses + " классов, нужно " + allCansOfWhitePaint + " банок белой краски и " + allCansOfBrownPaint + " банок коричневой краски" );
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + allCansOfWhitePaint + " банок белой краски и " + allCansOfBrownPaint + " банок коричневой краски!" );
     }
     public static void task6 () {
         System.out.println("Задача 6");
