@@ -72,7 +72,7 @@ public class Main {
         byte allClasses = (byte) (allCansOfPaint/allCansForOneClasses);
         byte allCansOfWhitePaint = (byte) (allClasses*cansOfWhitePaint);
         byte allCansOfBrownPaint = (byte) (allClasses*cansOfBrownPaint);
-        System.out.println("В школе, где " + allClasses + " классов, нужно " + allCansOfWhitePaint + " банок белой краски и " + allCansOfBrownPaint + " банок коричневой краски" );
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + allCansOfWhitePaint + " банок белой краски и " + allCansOfBrownPaint + " банок коричневой краски!" );
     }
     public static void task6 () {
         System.out.println("Задача 6");
