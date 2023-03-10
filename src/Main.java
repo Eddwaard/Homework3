@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Задача 2");
         double a = 27.12;
         System.out.println(a);
-        double b = 0.987678965549;
+        long b = 987678965549L;
         System.out.println(b);
         float c = 2.768F;
         System.out.println(c);
